@@ -1,0 +1,20 @@
+{
+  "name": "dsh-plugin-relvato",
+  "version": "1.0.0",
+  "description": "Relvato website monitoring for DeepSeek Harness: adds Relvato's hosted MCP server (52 tools) through dsh-mcp-client, with a Relvato API key.",
+  "keywords": ["dsh-plugin", "deepseek-harness", "mcp", "website-monitoring", "uptime", "wordpress", "relvato"],
+  "homepage": "https://www.relvato.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Relvato/dsh-plugin-relvato.git"
+  },
+  "bugs": "https://github.com/Relvato/dsh-plugin-relvato/issues",
+  "author": "Relvato <contact@relvato.com> (https://www.relvato.com)",
+  "license": "MIT",
+  "files": ["cordis.patch.yml", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

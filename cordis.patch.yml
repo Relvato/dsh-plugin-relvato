@@ -1,0 +1,11 @@
+# Relvato's hosted MCP server for DeepSeek Harness, through the in-box MCP client. No code of ours runs in dsh.
+# The API key comes from the RELVATO_API_KEY environment variable; without it the server still lists its tools,
+# and each call says a key is needed. Create a key at https://app.relvato.com/api-access.
+- insert:
+    - id: relvato
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: relvato
+        transport: streamable-http
+        url: https://app.relvato.com/api/mcp
+        headers: !!js 'process.env.RELVATO_API_KEY ? { Authorization: `Bearer ${process.env.RELVATO_API_KEY}` } : {}'
