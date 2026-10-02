@@ -40,11 +40,12 @@ fix a run proposes, with automatic rollback.
 3. Add the bundle to a profile:
 
    ```sh
-   dsh plugin --profile web add github:Relvato/dsh-plugin-relvato
+   dsh plugin --profile web add dsh-plugin-relvato
    ```
 
-   Or, once it's on npm: `dsh plugin --profile web add dsh-plugin-relvato`. You can also add it from the **Plugins**
-   page in the dsh Web UI.
+   It's on [npm](https://www.npmjs.com/package/dsh-plugin-relvato) (and its mirrors, such as npmmirror). To install
+   straight from GitHub instead: `dsh plugin --profile web add github:Relvato/dsh-plugin-relvato`. You can also add it
+   from the **Plugins** page in the dsh Web UI.
 
 4. Restart dsh (or let HMR reload it). Relvato's tools appear as `mcp__relvato__<tool>`, for example
    `mcp__relvato__list_sites`.
