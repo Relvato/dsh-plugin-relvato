@@ -18,7 +18,7 @@ visibility and security. It runs those monitors on a schedule and again whenever
 website, and goes deepest on WordPress and WooCommerce.
 
 This is a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) **bundle**. It adds Relvato's hosted MCP
-server (52 tools) to your profile through dsh's in-box MCP client. It is configuration only: no code from this package
+server (58 tools) to your profile through dsh's in-box MCP client. It is configuration only: no code from this package
 runs in dsh, and there is no build step.
 
 With it, your agent can add a site and set up its monitors, run them, read health, uptime, Core Web Vitals and each
