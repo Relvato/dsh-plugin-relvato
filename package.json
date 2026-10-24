@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-relvato",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "description": "Relvato website monitoring for DeepSeek Harness: adds Relvato's hosted MCP server (58 tools) through dsh-mcp-client, with a Relvato API key.",
   "keywords": [
     "dsh-plugin",
